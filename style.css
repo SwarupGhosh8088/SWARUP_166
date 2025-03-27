@@ -623,6 +623,15 @@ html,body
 
 
 @media (max-width: 768px) {
+
+
+   .home
+  {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  }
   .navbar {
     flex-direction: column;
     height: auto;
