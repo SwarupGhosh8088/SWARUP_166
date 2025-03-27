@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Miriam+Libre:wght@400..700&family=Nova+Square&family=Rampart+One&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Miriam+Libre:wght@400..700&family=New+Rocker&family=Nova+Square&family=Rampart+One&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Miltonian&family=Miriam+Libre:wght@400..700&family=New+Rocker&family=Nova+Square&family=Rampart+One&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Miltonian&family=Miriam+Libre:wght@400..700&family=New+Rocker&family=Nova+Square&family=Rampart+One&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Miltonian&family=Miriam+Libre:wght@400..700&family=Neucha&family=New+Rocker&family=Nova+Square&family=Rampart+One&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&display=swap');
+
+
+
+
+
+html,body
+{
+  background-color: #d3c6c0;
+  
+}
+
+.navbar {
+  display: flex;
+  background-color: #9D9292;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 95px;
+  width: auto;
+ 
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family:Miltonian;
+    color:#363636;
+    padding-left: 30px;
+    align-items: center;
+
+}
+
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+  gap: 65px; 
+
+  margin-right: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: Bubblegum Sans;
+  
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+
+}
+
+
+.nav a:hover {
+
+  text-decoration: none;
+  color: rgb(43, 33, 33);
+  font-size: 32px;
+  font-weight: 500;
+  font-family: Bubblegum Sans;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+ 
+ 
+}
+
+
+
+.img1{
+  margin-bottom: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px; 
+  margin-top: 50px;
+  border: 2px solid #141218;
+  
+  
+}
+
+
+
+
+
+.img1:hover
+{
+ 
+  box-shadow: 0px 4px 10px rgba(6, 1, 15, 0.2);
+  transform: scale(1.07);
+  margin-bottom: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius:200px ;
+  margin-top: 50px;
+  transition: ease .3s;
+
+}
+
+
+
+
+
+
+
+
+
+
+.left
+{
+  display: flex;
+  height: 700px;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 28px;
+}
+
+.right
+{
+  display: flex;
+  width: 700px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.home{
+  background-color: #DDD0C8;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height : 700px;
+  width: auto;
+  border-radius: 10px;
+
+
+
+}
+
+.linkdin
+{
+  height: 60px;
+  height: 60px;
+}
+.btn1{
+  height: 60px;
+  width: 190px;
+  border-radius: 35px;
+  display: flex;
+  font-family: New Rocker;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #241E1E;
+  color: #F5F5F5;
+  border: 2px solid black;
+
+
+  border-color: #241E1E;
+}
+.btn1:hover{
+  background-color: #141218;
+  height: 60px;
+  width: 190px;
+  color: #cec3c8;
+  border-radius: 35px;
+  box-shadow: 0px 4px 10px rgba(6, 1, 15, 0.2);
+  transform: scale(1.07);
+ 
+}
+
+.social
+{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.btn2,.btn3,.btn4{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+  margin-left: 30px;
+  border: 2px solid #d3c6c0;
+
+ 
+
+}
+.btn2:hover,.btn3:hover,.btn4:hover{
+  box-shadow: 0px 4px 10px rgba(6, 1, 15, 0.2);
+  transform: scale(1.07);
+
+}
+
+
+
+
+
+
+
+
+
+
+.about
+{
+    height :700px;
+    width:100%;
+    background-color: #cfc3bc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+}
+.dp
+{
+    height: auto;
+    width: autopx;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content:center;
+    padding: 50px;
+
+}
+
+
+.img2
+{
+  
+
+    width: 300px;
+    height: 300px;
+    border-radius:150px ;
+
+    border: 5px solid #141218;
+
+}
+.para {
+  background-color: #e7e7e9;
+  font-family: Neucha;
+  height: 200px;;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 30px;
+  width: auto;
+}
+
+.btn5
+{
+  height: 60px;
+  width: 190px;
+  border-radius: 35px;
+  display: flex;
+  font-family: New Rocker;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #241E1E;
+  color: #F5F5F5;
+  border: 2px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Skills{
+  height:700px;
+  width: auto;
+  border-radius: 20px;
+  background-color: #c7bcb2;  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 20px;
+
+}
+.skills
+{
+  height: 600px;
+  width: 50%;
+  margin-bottom: 80px;
+  margin-left: 20px;
+
+}
+
+
+.icons{
+  height: 520px;
+  width: 600px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #eff0f0;
+  border: 1px solid #141218;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.icon img {
+  width: 70px;
+  height: 70px;
+  border-radius: 18px;
+  transition: ease .3s;
+}
+
+.icon img:hover {
+  transform: scale(1.2);
+}
+
+
+.edu{
+  height: 600px;
+  width: auto;
+  margin-bottom: 80px;
+
+}
+
+.quali{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #eff0f0;
+  height: 500px;
+  width:auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 10px;
+  border: 1px solid #141218;
+  margin-right: 20px;
+ 
+}
+
+
+.ten,.twelve,.bca
+{
+  background-color: #ffffff;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px  ;
+  text-align: center;
+  border: 1x solid #141218;
+
+  
+
+ 
+}
+.ten:hover,.twelve:hover,.bca:hover
+{
+  box-shadow: 0px 4px 10px rgba(6, 1, 15, 0.2);
+  border: 2px solid #141218;
+  transform: scale(1.2) 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+  height: 700px;
+  background-color: #c6cad1;
+  border-radius: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  gap: 90px;
+  flex-wrap: wrap;
+  background-image: url('https://img.freepik.com/free-photo/top-view-work-desk-with-blueprints-laptop_23-2148397885.jpg?t=st=1742554155~exp=1742557755~hmac=15098645ed27326215db9a0b27642949f2cb8221f9ff704afc99a6d9043336e4&w=1380');
+}
+.head{
+  height: auto;
+  width: 1000px;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+
+}
+
+.project:hover {
+  box-shadow: 0px 4px 10px rgba(6, 1, 15, 0.2);
+  transform: scale(1.07);
+ 
+}
+
+.proimg {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.proimg img {
+  width: 100%;
+  height: 100%;
+  transition: ease .3;
+}
+
+
+
+.project-content {
+  padding: 20px;
+  text-align: center;
+}
+.project-content:hover{
+
+  transform: ease 0.3s;
+
+
+}
+
+.project-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #444;
+}
+
+.project-content p {
+  font-size: 1em;
+  color: #666;
+  margin: 0 0 15px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transform: scale(1.07);
+  
+}
+
+.project-link:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+.project-content a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact
+{
+  height: 700px;
+  width: auto;
+  background-color: #b8b8c9;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/premium-photo/business-contact-icons-magenta-phone-email-address-d-rendering_337384-579.jpg?w=1060");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  justify-content: center;
+ 
+}
+
+
+  
+
+
+.input
+{
+
+
+  margin-bottom: 50px;
+  background-color: #fdfdfd;
+  height: 500px;
+  width: 50%;
+  border-radius: 30px;
+  border: 2px solid #141218;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.type{
+ 
+  height: 50px;
+  width: 490px;
+  border-radius: 20px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.type1{
+
+  height: 230px;
+  width: 590px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+ 
+ 
+
+}
+.btn7{
+
+  height: 60px; 
+  width: 600px; 
+  background-color: black;
+  font-size: 30px;
+  color: aliceblue; 
+  margin-top: 20px; 
+  border-radius: 11px;
+   margin-bottom: 20px;
+
+}
+
+.footer {
+  background-color: #464040;
+  color: white;
+  text-align: center;
+  justify-content: center;
+ 
+  height: 50px;
+  font-family: 'Bubblegum Sans', sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 50px;
+}
+
+.footer p {
+
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 40px;
+    padding: 10px 0;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  
+  .nav a {
+    font-size: 18px;
+  }
+  
+  .img1, .img2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about
+  {
+    height: 900px;
+  }
+  
+  .para {
+    font-size: 20px;
+    width: 400px;
+    overflow:hidden;
+  }
+  .dp
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+  .icons {
+    width: 200px;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: scroll;
+  }
+  
+ 
+  .quali {
+    flex-direction: column;
+    height: 500px;
+    overflow: scroll;
+    
+  }
+  
+  .ten, .twelve, .bca {
+    width: 90%;
+  }
+  
+
+  .projects
+  {
+    overflow: scroll;
+  }
+  .project {
+    width: 90%;
+  }
+  
+  .input {
+    width: 400px;
+    height: auto;
+    padding: 20px 0;
+  }
+  
+  .type
+  {
+    width: 250px;
+  }
+  .type1 {
+    height: 150px;
+    width: 350px;
+  }
+
+  .btn7
+  {
+    height: 60px; 
+    width: 370px; 
+  }
+}
