@@ -630,8 +630,10 @@ html,body
     display: flex;
     flex-direction: column;
     height: auto;
-
+    align-items: center;
+    justify-content: center;
   }
+  
   .navbar {
     flex-direction: column;
     height: auto;
